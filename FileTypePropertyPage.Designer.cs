@@ -47,81 +47,66 @@
             "Mime",
             "未知"}, -1);
             System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
-            "定义",
+            "相关链接",
             "无"}, -1);
             System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
-            "相关链接",
-            "无"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
             "扩展名",
+            "未知"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
+            "概率",
             "未知"}, -1);
             System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
-            "概率",
-            "未知"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
             "描述",
             "无"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
             "Mime",
             "未知"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem(new string[] {
-            "定义",
-            "无"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem(new string[] {
             "相关链接",
             "无"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem(new string[] {
             "扩展名",
             "未知"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem(new string[] {
             "概率",
+            "未知"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem(new string[] {
+            "描述",
+            "无"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Mime",
             "未知"}, -1);
             System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem(new string[] {
-            "描述",
+            "相关链接",
             "无"}, -1);
             System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Mime",
+            "扩展名",
             "未知"}, -1);
             System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem(new string[] {
-            "定义",
-            "无"}, -1);
+            "概率",
+            "未知"}, -1);
             System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem(new string[] {
-            "相关链接",
+            "描述",
             "无"}, -1);
             System.Windows.Forms.ListViewItem listViewItem19 = new System.Windows.Forms.ListViewItem(new string[] {
-            "扩展名",
+            "Mime",
             "未知"}, -1);
             System.Windows.Forms.ListViewItem listViewItem20 = new System.Windows.Forms.ListViewItem(new string[] {
-            "概率",
-            "未知"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new string[] {
-            "描述",
-            "无"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Mime",
-            "未知"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
-            "定义",
-            "无"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem(new string[] {
             "相关链接",
             "无"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new string[] {
             "扩展名",
             "未知"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem26 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new string[] {
             "概率",
             "未知"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem27 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
             "描述",
             "无"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem28 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem(new string[] {
             "Mime",
             "未知"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem29 = new System.Windows.Forms.ListViewItem(new string[] {
-            "定义",
-            "无"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem30 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem(new string[] {
             "相关链接",
             "无"}, -1);
             this.listView1 = new System.Windows.Forms.ListView();
@@ -172,7 +157,7 @@
             listViewItem4.StateImageIndex = 0;
             listViewItem5.Group = listViewGroup1;
             listViewItem5.StateImageIndex = 0;
-            listViewItem6.Group = listViewGroup1;
+            listViewItem6.Group = listViewGroup2;
             listViewItem6.StateImageIndex = 0;
             listViewItem7.Group = listViewGroup2;
             listViewItem7.StateImageIndex = 0;
@@ -182,9 +167,9 @@
             listViewItem9.StateImageIndex = 0;
             listViewItem10.Group = listViewGroup2;
             listViewItem10.StateImageIndex = 0;
-            listViewItem11.Group = listViewGroup2;
+            listViewItem11.Group = listViewGroup3;
             listViewItem11.StateImageIndex = 0;
-            listViewItem12.Group = listViewGroup2;
+            listViewItem12.Group = listViewGroup3;
             listViewItem12.StateImageIndex = 0;
             listViewItem13.Group = listViewGroup3;
             listViewItem13.StateImageIndex = 0;
@@ -192,36 +177,26 @@
             listViewItem14.StateImageIndex = 0;
             listViewItem15.Group = listViewGroup3;
             listViewItem15.StateImageIndex = 0;
-            listViewItem16.Group = listViewGroup3;
+            listViewItem16.Group = listViewGroup4;
             listViewItem16.StateImageIndex = 0;
-            listViewItem17.Group = listViewGroup3;
+            listViewItem17.Group = listViewGroup4;
             listViewItem17.StateImageIndex = 0;
-            listViewItem18.Group = listViewGroup3;
+            listViewItem18.Group = listViewGroup4;
             listViewItem18.StateImageIndex = 0;
             listViewItem19.Group = listViewGroup4;
             listViewItem19.StateImageIndex = 0;
             listViewItem20.Group = listViewGroup4;
             listViewItem20.StateImageIndex = 0;
-            listViewItem21.Group = listViewGroup4;
+            listViewItem21.Group = listViewGroup5;
             listViewItem21.StateImageIndex = 0;
-            listViewItem22.Group = listViewGroup4;
+            listViewItem22.Group = listViewGroup5;
             listViewItem22.StateImageIndex = 0;
-            listViewItem23.Group = listViewGroup4;
+            listViewItem23.Group = listViewGroup5;
             listViewItem23.StateImageIndex = 0;
-            listViewItem24.Group = listViewGroup4;
+            listViewItem24.Group = listViewGroup5;
             listViewItem24.StateImageIndex = 0;
             listViewItem25.Group = listViewGroup5;
             listViewItem25.StateImageIndex = 0;
-            listViewItem26.Group = listViewGroup5;
-            listViewItem26.StateImageIndex = 0;
-            listViewItem27.Group = listViewGroup5;
-            listViewItem27.StateImageIndex = 0;
-            listViewItem28.Group = listViewGroup5;
-            listViewItem28.StateImageIndex = 0;
-            listViewItem29.Group = listViewGroup5;
-            listViewItem29.StateImageIndex = 0;
-            listViewItem30.Group = listViewGroup5;
-            listViewItem30.StateImageIndex = 0;
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1,
             listViewItem2,
@@ -247,16 +222,11 @@
             listViewItem22,
             listViewItem23,
             listViewItem24,
-            listViewItem25,
-            listViewItem26,
-            listViewItem27,
-            listViewItem28,
-            listViewItem29,
-            listViewItem30});
+            listViewItem25});
             this.listView1.Location = new System.Drawing.Point(0, 0);
             this.listView1.Margin = new System.Windows.Forms.Padding(0);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(480, 620);
+            this.listView1.Size = new System.Drawing.Size(401, 497);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -264,12 +234,12 @@
             // columnHeader1
             // 
             this.columnHeader1.Text = "属性";
-            this.columnHeader1.Width = 100;
+            this.columnHeader1.Width = 80;
             // 
             // columnHeader2
             // 
             this.columnHeader2.Text = "值";
-            this.columnHeader2.Width = 340;
+            this.columnHeader2.Width = 300;
             // 
             // contextMenuStrip1
             // 
@@ -280,27 +250,27 @@
             this.打开链接ToolStripMenuItem,
             this.下载toolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(248, 100);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(197, 92);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.ContextMenuStrip1_Opening);
             // 
             // 复制值ToolStripMenuItem
             // 
             this.复制值ToolStripMenuItem.Name = "复制值ToolStripMenuItem";
-            this.复制值ToolStripMenuItem.Size = new System.Drawing.Size(247, 24);
+            this.复制值ToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.复制值ToolStripMenuItem.Text = "复制值";
             this.复制值ToolStripMenuItem.Click += new System.EventHandler(this.复制值ToolStripMenuItem_Click);
             // 
             // 复制属性和值ToolStripMenuItem
             // 
             this.复制属性和值ToolStripMenuItem.Name = "复制属性和值ToolStripMenuItem";
-            this.复制属性和值ToolStripMenuItem.Size = new System.Drawing.Size(247, 24);
+            this.复制属性和值ToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.复制属性和值ToolStripMenuItem.Text = "复制属性和值";
             this.复制属性和值ToolStripMenuItem.Click += new System.EventHandler(this.复制属性和值ToolStripMenuItem_Click);
             // 
             // 打开链接ToolStripMenuItem
             // 
             this.打开链接ToolStripMenuItem.Name = "打开链接ToolStripMenuItem";
-            this.打开链接ToolStripMenuItem.Size = new System.Drawing.Size(247, 24);
+            this.打开链接ToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.打开链接ToolStripMenuItem.Text = "打开链接";
             this.打开链接ToolStripMenuItem.Visible = false;
             this.打开链接ToolStripMenuItem.Click += new System.EventHandler(this.打开链接ToolStripMenuItem_Click);
@@ -308,7 +278,7 @@
             // 下载toolStripMenuItem
             // 
             this.下载toolStripMenuItem.Name = "下载toolStripMenuItem";
-            this.下载toolStripMenuItem.Size = new System.Drawing.Size(247, 24);
+            this.下载toolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.下载toolStripMenuItem.Text = "未找到 trid (点击下载)";
             this.下载toolStripMenuItem.Click += new System.EventHandler(this.下载toolStripMenuItem_Click);
             // 
@@ -318,21 +288,22 @@
             this.panel1.Controls.Add(this.listView1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(480, 620);
+            this.panel1.Size = new System.Drawing.Size(360, 496);
             this.panel1.TabIndex = 1;
             this.panel1.SizeChanged += new System.EventHandler(this.Panel1_SizeChanged);
             // 
             // FileTypePropertyPage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "FileTypePropertyPage";
             this.PageTitle = "文件类型";
-            this.Size = new System.Drawing.Size(480, 620);
+            this.Size = new System.Drawing.Size(360, 496);
             this.contextMenuStrip1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

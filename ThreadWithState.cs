@@ -25,7 +25,7 @@ namespace FileTypePropertySheet
         {
             var process = new Process();
             process.StartInfo.FileName = "trid.exe";
-            process.StartInfo.Arguments = $"\"{FilePath}\" -v -r:5";
+            process.StartInfo.Arguments = $"\"{FilePath}\" -e";
             process.StartInfo.UseShellExecute = false;
             process.StartInfo.RedirectStandardOutput = true;
             process.StartInfo.CreateNoWindow = true;
@@ -46,7 +46,7 @@ namespace FileTypePropertySheet
             var matches = Regex.Matches(output, @"(?<p>\d{1,3}(\.\d)?%) \(\.(?<ext>[^\)]+)\) (?<desc>.+) \((\d+\/)+\d+\)");
             var mineTypes = Regex.Matches(output, @"(?<=Mime type  : ).+");
             var relatedURL = Regex.Matches(output, @"(?<=Related URL: ).+");
-            var definition = Regex.Matches(output, @"(?<=Definition   : ).+");
+            //var definition = Regex.Matches(output, @"(?<=Definition   : ).+");
 
             if (matches.Count > 0)
             {
@@ -57,7 +57,7 @@ namespace FileTypePropertySheet
                     itemsGroup["概率"].SubItems[1].Text = matches[i].Groups["p"].Value;
                     itemsGroup["描述"].SubItems[1].Text = matches[i].Groups["desc"].Value;
                     itemsGroup["Mime"].SubItems[1].Text = i < mineTypes.Count ? mineTypes[i].Value?.Trim() : "未知";
-                    itemsGroup["定义"].SubItems[1].Text = i < definition.Count ? definition[i].Value?.Trim() : "无";
+                    //itemsGroup["定义"].SubItems[1].Text = i < definition.Count ? definition[i].Value?.Trim() : "无";
                     itemsGroup["相关链接"].SubItems[1].Text = i < relatedURL.Count ? relatedURL[i].Value?.Trim() : "无";
                 }
             }
